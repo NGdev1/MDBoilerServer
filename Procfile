@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -jar mdboiler-1.0.1.jar --port $PORT

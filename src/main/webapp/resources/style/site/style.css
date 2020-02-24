@@ -1,0 +1,52 @@
+.main-header-info {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background: url("/resources/images/Logo/Logo v11.png") no-repeat;
+    background-size: 100%;
+    width: 140px;
+    height: 140px;
+}
+
+.title {
+    height: 100%;
+}
+
+.contact-info {
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    color: #414141;
+    align-self: flex-start;
+}
+
+.boiler-data-container {
+
+}
+
+.boiler-data-item {
+    margin-top: 20px;
+}
+
+.boiler-data-title {
+    font-size: 22px;
+    font-weight: 400;
+    display: inline;
+}
+
+.boiler-data-value {
+    font-size: 20px;
+    display: inline;
+    margin-left: 15px;
+}
+
+.button-set-temperature {
+    margin-top: 30px;
+
+}
