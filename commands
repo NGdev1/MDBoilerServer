@@ -1,3 +1,5 @@
 heroku buildpacks:clear
 mvn clean package
 heroku deploy:jar target/mdboiler-1.0.1.jar
+
+heroku logs --tail
